@@ -14,6 +14,10 @@
 		127F03D71F48397300CD022A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127F03D51F48397300CD022A /* LaunchScreen.storyboard */; };
 		127F03E21F48397300CD022A /* ProjectAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F03E11F48397300CD022A /* ProjectAppTests.swift */; };
 		127F03ED1F483A1600CD022A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127F03EC1F483A1600CD022A /* GoogleService-Info.plist */; };
+		127F03EF1F48534E00CD022A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F03EE1F48534E00CD022A /* Util.swift */; };
+		127F03F11F4853C600CD022A /* FancyDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F03F01F4853C600CD022A /* FancyDesign.swift */; };
+		127F03F31F4855AB00CD022A /* Btn-round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F03F21F4855AB00CD022A /* Btn-round.swift */; };
+		127F03F51F48584D00CD022A /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F03F41F48584D00CD022A /* FancyField.swift */; };
 		65D288208CC0DF92A70F9BE0 /* Pods_ProjectApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66B0C77E4A9C13B77495A0F /* Pods_ProjectApp.framework */; };
 		D2CD7E689141A6BB7A375550 /* Pods_ProjectAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72078D5A2B5A6C0984863E0 /* Pods_ProjectAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +44,10 @@
 		127F03E11F48397300CD022A /* ProjectAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAppTests.swift; sourceTree = "<group>"; };
 		127F03E31F48397300CD022A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		127F03EC1F483A1600CD022A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		127F03EE1F48534E00CD022A /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		127F03F01F4853C600CD022A /* FancyDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyDesign.swift; sourceTree = "<group>"; };
+		127F03F21F4855AB00CD022A /* Btn-round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Btn-round.swift"; sourceTree = "<group>"; };
+		127F03F41F48584D00CD022A /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		5BAF76F21811245A47C889A6 /* Pods-ProjectAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectAppTests/Pods-ProjectAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		8B748D22DBAF22EE1ACFD103 /* Pods-ProjectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectApp/Pods-ProjectApp.release.xcconfig"; sourceTree = "<group>"; };
 		8DE6BBD3420A0DCCA51DBDF6 /* Pods-ProjectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectApp/Pods-ProjectApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +101,10 @@
 			children = (
 				127F03CC1F48397300CD022A /* AppDelegate.swift */,
 				127F03CE1F48397300CD022A /* ViewController.swift */,
+				127F03EE1F48534E00CD022A /* Util.swift */,
+				127F03F01F4853C600CD022A /* FancyDesign.swift */,
+				127F03F41F48584D00CD022A /* FancyField.swift */,
+				127F03F21F4855AB00CD022A /* Btn-round.swift */,
 				127F03D01F48397300CD022A /* Main.storyboard */,
 				127F03D31F48397300CD022A /* Assets.xcassets */,
 				127F03D51F48397300CD022A /* LaunchScreen.storyboard */,
@@ -346,8 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127F03F51F48584D00CD022A /* FancyField.swift in Sources */,
 				127F03CF1F48397300CD022A /* ViewController.swift in Sources */,
+				127F03EF1F48534E00CD022A /* Util.swift in Sources */,
 				127F03CD1F48397300CD022A /* AppDelegate.swift in Sources */,
+				127F03F31F4855AB00CD022A /* Btn-round.swift in Sources */,
+				127F03F11F4853C600CD022A /* FancyDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +577,7 @@
 				127F03E81F48397300CD022A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		127F03E91F48397300CD022A /* Build configuration list for PBXNativeTarget "ProjectAppTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +586,7 @@
 				127F03EB1F48397300CD022A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
