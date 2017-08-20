@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationCategoryType</key>
+	<string>
+&lt;key&gt;CFBundleURLTypes&lt;/key&gt;
+&lt;array&gt;
+  &lt;dict&gt;
+  &lt;key&gt;CFBundleURLSchemes&lt;/key&gt;
+  &lt;array&gt;
+    &lt;string&gt;fb738371836364109&lt;/string&gt;
+  &lt;/array&gt;
+  &lt;/dict&gt;
+&lt;/array&gt;
+&lt;key&gt;FacebookAppID&lt;/key&gt;
+&lt;string&gt;738371836364109&lt;/string&gt;
+&lt;key&gt;FacebookDisplayName&lt;/key&gt;
+&lt;string&gt;Brijesh&apos;s first app&lt;/string&gt;</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -43,5 +58,27 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb738371836364109</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>738371836364109</string>
+    <key>FacebookDisplayName</key>
+    <string>Brijesh's first app</string>
+    
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
 </dict>
 </plist>
